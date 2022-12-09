@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+}
+
+
+
+@media (max-aspect-ratio: 7/10) {
+
+  .Joinpage{
+    border: 1vh solid rgb(183, 52, 235) !important;
+    height: 50vh !important;
+    width: 60vw !important;
+    margin: auto !important;
+    padding: 1vh !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+  .Joincontainer{
+    border: 0.5vh solid rgb(94, 209, 65) !important;
+    height: 50vh;
+    width: 100% !important;
+    margin: auto;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .Joinpage>img{
+    height: 10vh !important;
+    width: 10vh !important;
+    /* width: 10vw; */
+}
+.Joinpage>h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 0.5vh solid white !important;
+}
+
+
+#Joininput{
+  padding: 3vw !important;
+  width: 50vw !important;
+  /* border: none; */
+  /* outline: none; */
+  font-size: 4vw !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 5vw !important;
+  /* box-sizing: border-box; */
+}
+
+
+
+.Joinbtn{
+  width: 50vw !important;
+  padding: 3vw !important;
+  /* border: none; */
+  color: white;
+  font-size: 4vw !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: crimson;
+}
+
+
+
+
+/* ------------------------------------------------- */
+
+.Chatpage{
+  background-color: rgb(31, 29, 29);
+  width: 100vw !important;
+  height: 100vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Chatcontainer{
+  background-color: white;
+  /* border: 1vh solid green; */
+  height: 65% !important;
+  width: 65% !important;
+  display: flex;
+  flex-direction: column;
+}
+
+#chatinput{
+  padding: 1.5vmax !important;
+  font-size: 1.8vmax !important;
+}
+
+
+.Header>h2{
+  font-size: 2.5vmax !important;
+}
+
+.Header img{
+  height: 4vmax !important;
+  width: 4vw !important;
+}
+
+
+}
